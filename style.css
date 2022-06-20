@@ -1,8 +1,7 @@
 body {
-    background: url(new-background.png) no-repeat center center fixed;
+    background-image: url(./background_img.webp);
     background-size: 100vw;
     position: relative;
-
 }
 
 #player {
@@ -12,7 +11,7 @@ body {
     top: 10vh;
 }
 
-#play_game {
+#btn {
     width: 30vw;
     height: 20vh;
     position: fixed;
