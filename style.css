@@ -2,6 +2,7 @@ body {
     background-image: url(./background_img.webp);
     background-size: 100vw;
     position: relative;
+    background-repeat: repeat;
 }
 
 #player {

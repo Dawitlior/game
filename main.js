@@ -7,7 +7,7 @@ function playGame() {
   intervalId = setInterval(() => {
     player.style.left = distanceLeft++ + "px";
     player.style.top = distanceTop++ + "px";
-    if (distanceTop >= 320) {
+    if (distanceTop >= 310) {
       player.src = "explosion.gif";
       clearInterval(intervalId);
       alert("Game Over");
